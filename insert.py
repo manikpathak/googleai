@@ -71,6 +71,7 @@ while True:
             answer = int(input(":> "))
             if answer == 1:
                 print("Well done, you dodged the danger. Now you are safe. Carry on..")
+                break
             if answer == 2:
                 print("Sorry, spikey just killed you with its spikes, you need to start again. Game Over")
                 break
